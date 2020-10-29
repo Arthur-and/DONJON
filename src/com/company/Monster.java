@@ -3,8 +3,8 @@ package com.company;
 public class Monster extends Character {
 
 
-    public Monster(int strenght, int vitality) {
-        this.strenght = strenght;
+    public Monster(int strength, int vitality) {
+        this.strength = strength;
         this.vitality = vitality;
     }
 

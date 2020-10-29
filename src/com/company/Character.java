@@ -1,7 +1,7 @@
 package com.company;
 
 abstract public class Character {
-    public int strenght;
+    public int strength;
     public int vitality;
 
     public void newVitality(int damage) {
@@ -9,7 +9,7 @@ abstract public class Character {
     }
 
     public int getDamage() {
-        return strenght;
+        return strength;
     }
 
     public int getVitality() {
