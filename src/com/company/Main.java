@@ -9,7 +9,6 @@ public class Main {
         System.out.println("la force est de : " + monstre.getDamage());
         System.out.println(ceil(Math.random()));
 
-        System.out.println(;
 
 
 
