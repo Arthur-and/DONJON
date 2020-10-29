@@ -16,4 +16,8 @@ abstract public class Character {
         return vitality;
     }
 
+    public boolean isAlive() {
+        return getVitality() > 0;
+    }
+
 }
