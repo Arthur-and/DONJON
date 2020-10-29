@@ -9,15 +9,11 @@ public class Fight {
 
         while (true) {
             character2.newVitality(character1.getDamage());
-            if (character2.getVitality() > 0)
-                character1.newVitality(character2.getDamage());
-            else
+            if (character2.getVitality() <= 0)
                 return true;
 
             character1.newVitality(character2.getDamage());
-            if (character1.getVitality() > 0)
-                character2.newVitality(character1.getDamage());
-            else
+            if (character1.getVitality() <= 0)
                 return false;
         }
 
